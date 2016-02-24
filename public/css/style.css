@@ -1,0 +1,148 @@
+html,body{
+	background: #f1f1f1;
+}
+header {
+	height: 100px;
+	background: #2FBFBF;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+header img {
+	float: left;
+	height: 80px;
+	margin-right: 10px;
+}
+header h1, h3 {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+}
+.box-ruang {
+	background: #fff;
+	height: 220px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.box-hero {
+	height: 150px;
+	text-align: center;
+	background: #7FBEAE;
+	padding-top: 20px;
+}
+.ruang-place {
+	font-size: 40px;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+}
+.ruang-title {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+}
+.ruang-caption {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.ruang-time {
+	padding-right: 10px;
+}
+.ruang-lecture {
+	border-left: 3px solid #7FBEAE;
+	padding-left: 10px;
+}
+
+.box-empty {
+	background: #78302C;
+	text-align: center;
+	height: 150px;
+	padding-top: 20px;
+}
+
+/* Dashboard Style */
+.box-day .day-active {
+	color: #2FBFBF;
+	font-size: 35px;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.box-jadwal {
+	/*outline: 1px solid red;*/
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	background: #fff;
+	overflow: auto;
+}
+.box-jadwal p {
+	margin-bottom: 3px;
+	margin-left: 25px;
+}
+.jadwal-title {
+	background: #7FBEAE;
+	color: #fff;
+	padding: 25px 0;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin: 0;
+}
+.jadwal-lecture {
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px !important;
+	color: #7FBEAE;
+}
+.jadwal-time {
+	border-left: 3px solid #7FBEAE;
+	padding-left: 10px;
+
+}
+.jadwal-place {
+	border-left: 3px solid #7FBEAE;
+	padding-left: 10px;
+}
+.box-action {
+	float: right;
+	margin-top: -40px;
+	margin-right: 20px;
+}
+.btn-default {
+	background: #7FBEAE;
+	border: none;
+	color: #fff;
+}
+.btn-add {
+	float: right;
+	/*margin-top: -50px;*/
+	background: #2FBFBF;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	margin-top: 20px;
+}
+.box-form {
+	background: #fff;
+	padding: 25px;
+	padding-top: 40px;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-bottom: 3px solid #2FBFBF;
+	position: relative;
+}
+.box-form legend {
+	position: absolute;
+	top: -20px;
+	background: #2FBFBF;
+	color: #fff;
+	width: 200px;
+	padding: 5px 15px;
+}
+.link-back {
+	float: right;
+	margin-top: -20px;
+}
